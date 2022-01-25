@@ -76,7 +76,7 @@ var newLayerControl = $("#layercontrol");
 newLayerControl.append(oldLayerControl);
 $(".leaflet-control-layers-list").prepend("<strong class='title'>Layers</strong><br>");
 
-var Vancouver = L.geoJson(
+var layer = L.geoJson(
             [
   {
     "type":"Feature",
@@ -94,6 +94,6 @@ var Vancouver = L.geoJson(
   }
 ],
             {
-                onEachFeature: function (feature, Vancouver) {
+                onEachFeature: function (feature, layer) {
                     layer.bindPopup(feature.properties.popupContent);
                 }}).addTo(map);
