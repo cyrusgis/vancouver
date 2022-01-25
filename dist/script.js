@@ -118,5 +118,5 @@ var layer = L.geoJson(
 ],
             {
                 onEachFeature: function (feature, layer) {
-                    layer.bindPopup(feature.properties.popupContent);
+                    layer.bindPopup(feature.properties.Description);
                 }}).addTo(map);
