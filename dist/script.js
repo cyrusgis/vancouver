@@ -74,6 +74,6 @@ var layerControl = L.control
 var oldLayerControl = layerControl.getContainer();
 var newLayerControl = $("#layercontrol");
 newLayerControl.append(oldLayerControl);
-$(".leaflet-control-layers-list").prepend("<strong class='title'>Base Maps</strong><br>");
-$(".leaflet-control-layers-separator").after("<br><strong class='title'>Layers</strong>");
+$(".leaflet-control-layers-list").prepend("<strong class='title'>Layers</strong><br>");
+
 
