@@ -11,7 +11,6 @@ var basemaps = {
       id: "osm.streets"
     }
   ),
-  "ESRI-Topographic": L.esri.basemapLayer("Topographic"),
   "Google-Map": L.tileLayer(
     "https://mt1.google.com/vt/lyrs=r&x={x}&y={y}&z={z}",
     {
