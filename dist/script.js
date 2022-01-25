@@ -91,6 +91,19 @@ var layer = L.geoJson(
       ]
     }
   }
+  {
+    "type":"Feature",
+    "properties":{
+      "name":"Garibaldi Lake",
+      "popupContent":"2"
+    },
+    "geometry":{
+      "type":"Point",
+      "coordinates":[
+        -122.01814034934785,49.929176024669395
+      ]
+    }
+  }
 ],
             {
                 onEachFeature: function (feature, layer) {
