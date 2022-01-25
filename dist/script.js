@@ -110,6 +110,36 @@ var layer = L.geoJson(
           50.34693926919953
         ]
       }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "marker-symbol": "",
+        "Name": "Tunnel Bluffs",
+        "Description": "Tunnel Bluffs is a lookout point over the Howe Sound near the village of Lions Bay on the Sea to Sky Highway, providing one of the best views of the Howe Sound in the region."
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -123.23786087139511,
+		  49.49022708470253
+        ]
+      }
+    },
+	{
+      "type": "Feature",
+      "properties": {
+        "marker-symbol": "",
+        "Name": "Eagle Bluffs",
+        "Description": "The Eagle Bluffs trail in Cypress Provincial Park is one of the most popular hikes in Vancouver. Its close proximity to the city, moderate difficulty and amazing views over downtown Vancouver and Howe Sound make it a favourite Vancouver hike amongst tourists and locals alike."
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -123.23458878385831,
+		  49.38278655595352
+        ]
+      }
     }
   ]
 }
