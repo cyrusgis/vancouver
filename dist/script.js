@@ -79,31 +79,42 @@ $(".leaflet-control-layers-list").prepend("<strong class='title'>Layers</strong>
 var layer = L.geoJson(
             [
   {
-    "type":"Feature",
-    "properties":{
-      "name":"Garibaldi Lake",
-      "popupContent":"Garibaldi Lake is a turquoise-coloured alpine lake in British Columbia, Canada, located 37 km north of Squamish and 19 km south of Whistler. The lake lies within Garibaldi Provincial Park, which features mountains, glaciers, trails, forests, flowers, meadows, waterfalls."
+  "type": "FeatureCollection",
+  "features": [
+    {
+      "type": "Feature",
+      "properties": {
+        "Name": "Garibaldi Lake",
+        "Description": "Garibaldi Lake is a turquoise-coloured alpine lake in British Columbia, Canada, located 37 km north of Squamish and 19 km south of Whistler. The lake lies within Garibaldi Provincial Park, which features mountains, glaciers, trails, forests, flowers, meadows, waterfalls.",
+        "marker-color": "#00FFFF"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -123.03039550781249,
+          49.93796363805727
+        ]
+      }
     },
-    "geometry":{
-      "type":"Point",
-      "coordinates":[
-        -123.01814034934785,49.929176024669395
-      ]
+    {
+      "type": "Feature",
+      "properties": {
+        "marker-color": "#00FFFF",
+        "marker-size": "medium",
+        "marker-symbol": "",
+        "Name": "Joffre Lake",
+        "Description": "The Joffre Lake hike offers a little bit of everything you could want in a day hike. At 10 km, the hike to Joffre Lakes not too long, but with a steady uphill climb and several technical sections, it still offers a challenge. There are three turquoise, glacier-fed lakes, each more spectacular than the last."
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.47687339782715,
+          50.34693926919953
+        ]
+      }
     }
-  }
-  {
-    "type":"Feature",
-    "properties":{
-      "name":"Garibaldi Lake",
-      "popupContent":"2"
-    },
-    "geometry":{
-      "type":"Point",
-      "coordinates":[
-        -122.01814034934785,49.929176024669395
-      ]
-    }
-  }
+  ]
+}
 ],
             {
                 onEachFeature: function (feature, layer) {
