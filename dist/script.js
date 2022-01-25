@@ -81,14 +81,13 @@ var layer = L.geoJson(
   {
     "type":"Feature",
     "properties":{
-      "name":"Vancouver",
-      "popupContent":"Vancouver"
+      "name":"Garibaldi Lake",
+      "popupContent":"Garibaldi Lake"
     },
     "geometry":{
       "type":"Point",
       "coordinates":[
-        -123.14231872558592,
-        49.249094796388015
+        -123.01814034934785,49.929176024669395
       ]
     }
   }
