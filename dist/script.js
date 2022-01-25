@@ -42,7 +42,7 @@ var mapOptions = {
   zoomControl: false,
   attributionControl: false,
   center: [49.249094796388015, -123.14231872558592],
-  zoom: 6,
+  zoom: 8,
   layers: [basemaps.OpenStreetMaps]
 };
 
