@@ -82,7 +82,7 @@ var layer = L.geoJson(
     "type":"Feature",
     "properties":{
       "name":"Garibaldi Lake",
-      "popupContent":"Garibaldi Lake"
+      "popupContent":"Garibaldi Lake is a turquoise-coloured alpine lake in British Columbia, Canada, located 37 km north of Squamish and 19 km south of Whistler. The lake lies within Garibaldi Provincial Park, which features mountains, glaciers, trails, forests, flowers, meadows, waterfalls."
     },
     "geometry":{
       "type":"Point",
